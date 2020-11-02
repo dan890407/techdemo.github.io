@@ -1,0 +1,25 @@
+body{
+        background :none;
+        margin: 0;
+        padding: 0;
+        font-family: Microsoft JhengHei;
+        display:grid;
+        grid-template-columns: 50vw 50vw;
+        grid-template-areas: 
+        "gra wordc"
+        "gra wordc2";
+        justify-content:center;
+}
+.graph{
+    grid-area: gra;
+}
+.word{
+    grid-area: wordc;
+}
+.word2{
+    grid-area: wordc2;
+}
+
+
+
+    
