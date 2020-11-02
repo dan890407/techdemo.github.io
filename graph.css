@@ -19,7 +19,7 @@ body{
     top: 0px;
 }
 .icon.one{
-    position: absolute;
+    position: relative;
     left: 5px;
     top: 0px;
 }
