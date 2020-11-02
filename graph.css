@@ -9,18 +9,24 @@ body{
     display: block;
 }
 .icon {
+    position: relative;
     font-size: 40px;
-    display: block;   
+    display: block; 
 }
 .icon.next{
     position: absolute;
-    right: 0px;
+    right: 5px;
+    top: 0px;
+}
+.icon.one{
+    position: absolute;
+    left: 5px;
     top: 0px;
 }
 .container{
     display: flex;
     justify-content: space-around;
-    align-items: center;
+    align-items: flex-start;
 }
 .container .tex{
     display :inline-flex;
@@ -49,4 +55,8 @@ body{
   padding: 10px 5px;
   margin-bottom: 30px;
   transition: 0.25s;
+  }
+  .wordcloud{
+
+    margin-top: 200px;
   }
